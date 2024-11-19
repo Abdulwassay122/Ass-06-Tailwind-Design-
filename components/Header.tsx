@@ -29,9 +29,9 @@ export default function Header() {
           <div className='w-[130.6px] h-[41px] py-[6.81px]'>
             <Image src={logo} alt="" />
           </div>
-          <div className='w-[910px] h-[44px] ml-[111.4px] flex'>
+          <div className='w-[910px] h-[44px] ml-[111.4px] flex bg-white'>
             <nav className='flex font-roboto text-[16px]'>
-            <li className='p-[10px] mr-[32px] w-[64px] h-[44px] list-none'><Link href="#Home">Home</Link></li>
+            <li className='p-[10px] mr-[32px] w-[64px] h-[44px] list-none border-solid border-black border-b-[1px]'><Link href="#Home">Home</Link></li>
             <li className='p-[10px] mr-[32px] w-[79px] h-[44px] list-none'><Link href="#Courses">Courses</Link></li>
             <li className='p-[10px] mr-[32px] w-[81px] h-[44px] list-none'><Link href="#Services">Services</Link></li>
             <li className='p-[10px] mr-[32px] w-[113px] h-[44px] list-none'><Link href="#Achievement">Achievement</Link></li>
@@ -40,7 +40,7 @@ export default function Header() {
           </nav>
           <div className='h-[40px] w-[191px] flex py-[1px]'>
             <button className='w-[80px] h-[40px] rounded-[5px] border-solid border-black border-[1px]'>Login</button>
-            <button className='w-[95px] h-[40px] rounded-[5px] bg-black text-white ml-[16px]'>Login</button>
+            <button className='w-[95px] h-[40px] rounded-[5px] bg-black text-white ml-[16px]'>Sign Up</button>
           </div>
           </div>
         </div>
