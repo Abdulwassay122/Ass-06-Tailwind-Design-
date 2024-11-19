@@ -24,7 +24,7 @@ export default function MobileHome() {
       </div>
       <div className="w-[428px] h-[239.34px] px-[24px] py-[48px] flex flex-col gap-[24px]">
         <div className="w-[327px] h-[54px] text-[18px] font-bold leading-[27px] tracking-tighter">
-          <p>Trusted by the world's best companies [social proof to build credibility]</p>
+          <p>Trusted by the world's best companies &#91;social proof to build credibility	&#93;</p>
         </div>
         <div className="h-[65.34px]  py-[16px] flex gap-[16px]">
           <Image className='' src={img1} alt="" />
