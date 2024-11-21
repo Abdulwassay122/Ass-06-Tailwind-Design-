@@ -6,7 +6,7 @@ import group from '../Assets/group.svg'
 
 export default function MobileServices() {
   return (
-    <section className='w-[428px] h-[862px] py-[48px] px-[24px] flex flex-col gap-[48px]'>
+    <section className='w[428px] h-[862px]  flex flex-col gap-[48px] justify-center items-center'>
       <div className="w-[385px] h-[162px] flex flex-col gap-[24px] mr-[19px]">
         <h4 className="h-[84px] w-[385px] text-[32px] leading-[41.6px] text-center font-bold">Explore Courses By Category</h4>
         <p className="h-[54px] w-[385px] text-[18px] leading-[27px] text-center">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>

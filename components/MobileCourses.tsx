@@ -7,8 +7,8 @@ import star from "../Assets/Star 1.svg";
 
 export default function MobileCourses() {
   return (
-    <section className="w-[428px] h-[2135px] py-[48px] px-[24px] flex flex-col gap-[48px]">
-      <div className="w-[249px] h-[93px] flex flex-col gap-[24px] mx-[75.5px]">
+    <section className="w[428px] h-[2135px] py-[48px] custom420:px-[24px] flex flex-col gap-[48px] items-center">
+      <div className="w-[249px] h-[93px] flex flex-col gap-[24px] custom420:mx-[75.5px]">
         <h4 className="text-[32px] leading-[41.5px] text-center font-bold">
           Courses
         </h4>
@@ -17,7 +17,7 @@ export default function MobileCourses() {
         </p>
       </div>
 
-      <div className="w-[380px] h-[1898px] flex flex-col gap-[64px]">
+      <div className="w[380x]  h[1898px] w-full flex flex-col gap-[64px] items-center">
         <div className="w-[336px] h-[40px] flex mx-[22px]">
           <div className="px-[16px] py-[8px] text-[16px] leading-[24px] w-[87px] border-solid border-[#676767] border-b-[1px]">
             Popular
@@ -29,17 +29,17 @@ export default function MobileCourses() {
             Best Price
           </div>
         </div>
-        <div className="w-[380px] h-[1690px] flex flex-col gap-[32px]">
+        <div className="custom420:w-[380px] w-[350px] h-[1690px] flex flex-col gap-[32px]">
           {/* card 1 */}
-          <div className="w-[380px] h-[558px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]">
-            <div className=" w-[380px] h-[300px] ">
+          <div className="custom420:w-[380px] w-[350px] h-[558px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]">
+            <div className=" custom420:w-[380px] w-[350px] h-[300px] ">
               <Image
-                className="rounded-[5px] h-[300px] object-cover"
+                className="custom420:w-[380px] w-[350px] h-[300px] object-cover"
                 src={img1}
                 alt=""
               />
             </div>
-            <div className=" w-[380px] h-[234px] px-[16px] flex flex-col gap-[24px]">
+            <div className=" custom420:w-[380px] w-[350px] h-[234px] custom420:px-[16px] flex flex-col gap-[24px]">
               <div className="w-[348px] h-[146px] flex flex-col gap-[8px]">
                 <div className="h-[24px] flex">
                   <p className="w-[326px] text-[14px] font-semibold leading-[21px]">
@@ -75,15 +75,15 @@ export default function MobileCourses() {
             </div>
           </div>
           {/* card 2 */}
-          <div className="w-[380px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]">
-            <div className=" w-[380px] h-[300px] ">
+          <div className="custom420:w-[380px] w-[350px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]">
+            <div className="custom420:w-[380px] w-[350px] h-[300px] ">
               <Image
                 className="rounded-[5px] h-[300px] object-cover"
                 src={img2}
                 alt=""
               />
             </div>
-            <div className=" w-[380px] h-[210px] px-[16px] flex flex-col gap-[24px]">
+            <div className=" custom420:w-[380px] w-[350px] h-[210px] custom420:px-[16px] flex flex-col gap-[24px]">
               <div className="w-[348px] h-[122px] flex flex-col gap-[8px]">
                 <div className="h-[24px] flex">
                   <p className="w-[326px] text-[14px] font-semibold leading-[21px]">
@@ -119,15 +119,15 @@ export default function MobileCourses() {
             </div>
           </div>
           {/* card 3 */}
-          <div className="w-[380px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]">
-            <div className=" w-[380px] h-[300px] ">
+          <div className="custom420:w-[380px] w-[350px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]">
+            <div className="custom420:w-[380px] w-[350px] h-[300px] ">
               <Image
                 className="rounded-[5px] h-[300px] object-cover"
                 src={img3}
                 alt=""
               />
             </div>
-            <div className=" w-[380px] h-[210px] px-[16px] flex flex-col gap-[24px]">
+            <div className=" custom420:w-[380px] w-[350px] h-[210px] custom420:px-[16px] flex flex-col gap-[24px]">
               <div className="w-[348px] h-[122px] flex flex-col gap-[8px]">
                 <div className="h-[24px] flex">
                   <p className="w-[326px] text-[14px] font-semibold leading-[21px]">
@@ -163,7 +163,7 @@ export default function MobileCourses() {
             </div>
           </div>
         </div>
-      <button className=' w-[152px] h-[40px] mx-[114px] text-[16px] leading-[24px] border-solid border-black border-[1px] rounded-[5px]'>View All Courses</button>
+      <button className=' w-[152px] h-[40px] custom420:mx-[114px] text-[16px] leading-[24px] border-solid border-black border-[1px] rounded-[5px]'>View All Courses</button>
       </div>
        
        

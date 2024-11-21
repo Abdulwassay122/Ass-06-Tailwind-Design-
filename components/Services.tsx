@@ -12,14 +12,18 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section id='Services' className='w-[1280px] h-[1049px] font-roboto py-[112px]'>
+    <section id='Services' className='w[1280px] h-[1049px] font-roboto py-[112px] flex flex-col justify-center items-center'>
 
-      <div className='w-[768px] h-[109px] flex flex-col gap-[24px] mx-[256px]'> {/*  section 1 */}
+      <div className='md:w-[768px] w-[410] h-[109px] hidden md:flex flex-col gap-[24px] mx-[256px]'> {/*  section 1 */}
         <h2 className='text-[48px] font-bold leading-[57.6px]'>Explore Courses By Category</h2>
         <p className='text-[18px] leading-[27px]'>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
       </div>
+      <div className="md:hidden  w-[385px] h-[162px] flex flex-col gap-[24px] mr-[19px]">
+        <h4 className="h-[84px] w-[385px] text-[32px] leading-[41.6px] text-center font-bold">Explore Courses By Category</h4>
+        <p className="h-[54px] w-[385px] text-[18px] leading-[27px] text-center">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
+      </div>
 
-      <div className='w-full h-[636px] flex flex-col gap-[64px] mt-[80px]'> {/*  section 2 */}
+      <div className='w-full h-[636px] flex flex-col gap-[64px] mt-[80px] items-center'> {/*  section 2 */}
             <div className='h-[132px] flex gap-[24px]'> {/* sub section 1 */}
             {/* 1---- */}
             <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] flex p-[16px] gap-[32px] rounded-[5px]'>
@@ -32,7 +36,7 @@ export default function Services() {
                 </div>
             </div>
             {/* 2---- */}
-            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] flex p-[16px] gap-[32px] rounded-[5px]'>
+            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] custom850:flex  hidden p-[16px] gap-[32px] rounded-[5px]'>
                 <div className='w-[100px] h-[100px] bg-white rounded-[5px] flex justify-center items-center'>
                     <Image className='w-[32px] h-[32px]' src={volumehigh} alt="" />
                 </div>
@@ -42,7 +46,7 @@ export default function Services() {
                 </div>
             </div>
             {/* 3---- */}
-            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] flex p-[16px] gap-[32px] rounded-[5px]'>
+            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] xl:flex  hidden p-[16px] gap-[32px] rounded-[5px]'>
                 <div className='w-[100px] h-[100px] bg-white rounded-[5px] flex justify-center items-center'>
                     <Image className='w-[32px] h-[32px]' src={group} alt="" />
                 </div>
@@ -64,7 +68,7 @@ export default function Services() {
                 </div>
             </div>
             {/* 5---- */}
-            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] flex p-[16px] gap-[32px] rounded-[5px]'>
+            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7]  custom850:flex  hidden p-[16px] gap-[32px] rounded-[5px]'>
                 <div className='w-[100px] h-[100px] bg-white rounded-[5px] flex justify-center items-center'>
                     <Image className='w-[32px] h-[32px]' src={link} alt="" />
                 </div>
@@ -74,7 +78,7 @@ export default function Services() {
                 </div>
             </div>
             {/* 6---- */}
-            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] flex p-[16px] gap-[32px] rounded-[5px]'>
+            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] xl:flex  hidden p-[16px] gap-[32px] rounded-[5px]'>
                 <div className='w-[100px] h-[100px] bg-white rounded-[5px] flex justify-center items-center'>
                     <Image className='w-[32px] h-[32px]' src={arrow} alt="" />
                 </div>
@@ -96,7 +100,7 @@ export default function Services() {
                 </div>
             </div>
             {/* 8---- */}
-            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] flex p-[16px] gap-[32px] rounded-[5px]'>
+            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] custom850:flex  hidden p-[16px] gap-[32px] rounded-[5px]'>
                 <div className='w-[100px] h-[100px] bg-white rounded-[5px] flex justify-center items-center'>
                     <Image className='w-[32px] h-[32px]' src={book} alt="" />
                 </div>
@@ -106,7 +110,7 @@ export default function Services() {
                 </div>
             </div>
             {/* 9---- */}
-            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] flex p-[16px] gap-[32px] rounded-[5px]'>
+            <div className='w-[410.67px] h-[132px] bg-[#F7F7F7] xl:flex  hidden p-[16px] gap-[32px] rounded-[5px]'>
                 <div className='w-[100px] h-[100px] bg-white rounded-[5px] flex justify-center items-center'>
                     <Image className='w-[32px] h-[32px]' src={book1} alt="" />
                 </div>

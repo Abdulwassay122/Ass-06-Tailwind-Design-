@@ -10,19 +10,19 @@ import Image from "next/image";
 
 export default function Courses() {
   return (
-    <section id='Courses' className='w-[1280px] h-[1742px] py-[112px] flex flex-col gap-[60px] '>
-      <div className='w-[768px] h-[118px] flex flex-col gap-[24px] mx-[256px]'>
+    <section id='Courses' className='w[1280px]  h-[1742px] py-[112px] flex flex-col gap-[60px] items-center'>
+      <div className='w-[768px] h-[118px] flex flex-col gap-[24px] mx[256px]'>
         <h1 className='text-[56px] font-bold text-center leading-[67.2px]'>Courses</h1>
         <p className='text-[18px] text-center leading-[27px]'>Your Ultimate Guide to learning</p>
       </div>
-      <div className='h-[1340px] w-[1280px]  flex-col flex gap-[64px]'>
+      <div className='h-[1340px] w[1280px] w-full  flex-col flex gap-[64px] items-center'>  
         <div className='w-[336px] h-[40px] flex mx-[472px]'>
             <div className="px-[16px] py-[8px] text-[16px] leading-[24px] w-[87px] border-solid border-[#676767] border-b-[1px]">Popular</div>
             <div className="px-[16px] py-[8px] text-[16px] leading-[24px] w-[140px]">Recommended</div>
             <div className="px-[16px] py-[8px] text-[16px] leading-[24px] w-[109px]">Best Price</div>
         </div>
-        <div className='h-[1132px] w-[1280px] flex flex-col gap-[64px]'>
-            <div className='h-[534px]  flex flex-row gap-[32px] w-[1280px]'>
+        <div className='h-[1132px]  w[1280px] flex flex-col gap-[64px] items-center'>
+            <div className='h-[534px] w-full flex flex-row custom850:gap-[32px]   w[1280px] justify-center'>
                 {/* card 1         */}
                 <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
                     <div className=" w-[405.33px] h-[300px]"><Image src={img1} alt="" /></div>
@@ -47,7 +47,7 @@ export default function Courses() {
                 {/* card 2         */}
                 <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
                     <div className="w-[405.33px] h-[300px]"><Image src={img2} alt="" /></div>
-                    <div className="ml-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
+                    <div className="pl-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">
                             <div className='h-[24px] flex'>
                                 <p className='w-[326px] text-[14px] font-semibold leading-[21px]'>Programmimg</p>
@@ -66,7 +66,7 @@ export default function Courses() {
                     </div>
                 </div>
                 {/* card 3        */}
-                <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
+                <div className='w-[405.33px] h-[534px] rounded-[5px] hidden xl:flex  flex-col gap-[24px] bg-[#F7F7F7]'>
                     <div className="w-[405.33px] h-[300px]"><Image src={img3} alt="" /></div>
                     <div className="ml-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">
@@ -87,7 +87,7 @@ export default function Courses() {
                     </div>
                 </div>
             </div>
-            <div className='h-[534px] flex flex-row gap-[32px] w-[1280px]'>
+            <div className='h-[534px] flex flex-row gap-[32px] w[1280px] justify-center'>
                 {/* card 4         */}
                 <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
                     <div className="w-[405.33px] h-[300px]"><Image src={img4} alt="" /></div>
@@ -112,7 +112,7 @@ export default function Courses() {
                 {/* card 5         */}
                 <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
                     <div className="w-[405.33px] h-[300px]"><Image src={img5} alt="" /></div>
-                    <div className="ml-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
+                    <div className="pl-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">
                             <div className='h-[24px] flex'>
                                 <p className='w-[326px] text-[14px] font-semibold leading-[21px]'>Law</p>
@@ -131,7 +131,7 @@ export default function Courses() {
                     </div>
                 </div>
                 {/* card 6        */}
-                <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
+                <div className='w-[405.33px] h-[534px] rounded-[5px]  hidden xl:flex flex-col gap-[24px] bg-[#F7F7F7]'>
                     <div className="w-[405.33px] h-[300px]"><Image src={img6} alt="" /></div>
                     <div className="ml-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">

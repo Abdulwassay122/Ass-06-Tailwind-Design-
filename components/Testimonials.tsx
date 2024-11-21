@@ -9,12 +9,12 @@ import lArrow from '../Assets/right-arrow.svg'
 
 export default function Testimonials() {
   return (
-    <section id='Testimonial' className='h-[830.89px] w-[1280px] bg-[#F7F7F7] py-[112px] flex flex-col gap-[80px]'>
+    <section id='Testimonial' className='h-full w[1280px] bg-[#F7F7F7] py-[112px] flex flex-col gap-[80px] items-start'>
       <div className="w-[560px] h-[109px] flex flex-col gap-[24px] ml-[64px]">
         <h2 className='leading-[57.6px] font-bold text-[48px]'>Customer testimonials</h2>
         <p className='leading-[27px] text-[18px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div className="w-[1152px] h-[417.89px] flex flex-col gap-[48px] mx-[64px]">
+      <div className="xl:w-[1152px] w-[768px]  h-[417.89px] flex flex-col gap-[48px] mx-[64px]">
         <div className="h-[321.89px] flex flex-row gap-[32px]">
             {/* card 1 */}
             <div className='h-[321.89px] w-[362.27px]  p-[32px] flex flex-col gap-[24px] border-solid border-black border-[1px]'>
@@ -57,7 +57,7 @@ export default function Testimonials() {
                 </div>
             </div>
             {/* card 3 */}
-            <div className='h-[321.89px] w-[362.27px]  p-[32px] flex flex-col gap-[24px] border-solid border-black border-[1px]'>
+            <div className='h-[321.89px] w-[362.27px]  p-[32px] hidden  xl:flex flex-col gap-[24px] border-solid border-black border-[1px]'>
                 <div className="w-[116px] h-[18.89px] flex flex-row gap-[4px]">
                     <Image className='w-[20px]' src={star} alt="" />
                     <Image className='w-[20px]' src={star} alt="" />
@@ -77,7 +77,7 @@ export default function Testimonials() {
                 </div>
             </div>
         </div>
-        <div className='h-[48px] w-[1152px] flex justify-between'>
+        <div className='h-[48px] xl:w-[1152px] w-[760px] flex justify-between'>
             <div className="w-[72px] h-[8px] flex gap-[8px] my-5">
                 <div className='rounded-full h-2 w-2 bg-black'></div>
                 <div className='rounded-full h-2 w-2 bg-[#8D8D8D]'></div>

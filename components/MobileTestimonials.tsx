@@ -7,7 +7,7 @@ import lArrow from '../Assets/right-arrow.svg'
 
 export default function MobileTestimonials() {
   return (
-    <section className='h-[681.89px] w-[428px] py-[48px] px-[24px] flex flex-col gap-[48px]'>
+    <section className='h-[681.89px] w[428px] py-[48px] px-[24px] flex flex-col gap-[48px] items-center'>
       <div className="w-[361px] h-[120px] flex flex-col gap-[24px]">
         <h4 className='tracking-tight text-[32px] leading-[41.5px] text-center font-bold'>What Our Student Say</h4>
         <p className='text-[18px] leading-[27px] text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

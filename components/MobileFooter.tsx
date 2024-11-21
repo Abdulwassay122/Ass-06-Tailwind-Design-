@@ -9,7 +9,7 @@ import insta from '../Assets/insta.svg'
 
 export default function Footer() {
   return (
-    <footer className='h-[1411px] w-[428px] py-[48px] px-[24px] flex flex-col gap-[48px]'>
+    <footer className='h-[1411px] w[428px] py-[48px] px-[24px] flex flex-col gap-[48px] items-center'>
       <div className="w-[380px] h-[1315px] flex flex-col gap-[48px]">
         <div className="w-[380px] h-[261px]  flex flex-col gap-[24px]">
             <div className="w-[287px] h-[91px] mx-[46.5px] flex flex-col gap-[16px]">

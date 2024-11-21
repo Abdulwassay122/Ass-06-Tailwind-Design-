@@ -10,6 +10,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'custom850': '850px', 
+        'custom420': '420px', 
+        'max-380': { 'max': '380px' },
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

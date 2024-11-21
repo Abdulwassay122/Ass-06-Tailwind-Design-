@@ -9,14 +9,14 @@ import insta from '../Assets/insta.svg'
 
 export default function Footer() {
   return (
-    <footer className='h-[684px] w-[1280px] p-[80px] flex flex-col gap-[80px]'>
-      <div className="w-[1120px] h-[52px] flex flex-col gap-[80px]">
-        <div className="w-[1120px] h-[82px] flex justify-between">
+    <footer className='h[684px] w[1280px]  p-[80px] flex flex-col gap-[80px] '>
+      <div className="w[1120px] h[52px] flex flex-col gap-[80px]">
+        <div className="w[1120px] h[82px] flex lg:flex-row flex-col items-start gap-3 justify-between">
             <div className="w-[500px] h-[51px]">
                 <p className="text-[18px] leading-[27px] font-semibold">Subscribe to our newsletter</p>
                 <p className="text-[16px] leading-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div className="w-[400px] h-[82px] flex flex-col gap-[16px] ">
+            <div className="w-[400px] h[82px] flex flex-col gap-[16px] ">
                 <div className='h-[48px] flex w-[400px] gap-[16px] '>
                     <input className='h-[48px] w-[256px] border-solid border-black border-[1px] rounded-[5px] p-3 placeholder-[#505050]' placeholder='Enter your email' type="text" />
                     <button className='w-[119px] h-[48px] text-[16px] leading-[24px] border-solid rounded-[5px] border-black border-[1px]'>Subscribe</button>
@@ -24,7 +24,7 @@ export default function Footer() {
                 <p className='text-[12px] leading-[18px]'>By subscribing you agree to with our <Link className='underline' href="/">Privacy Policy</Link></p>
             </div>
         </div>
-        <div className="w-[1120px] h-[225px] flex  gap-[40px]">
+        <div className="w[1120px] h[225px] flex gap-2 justify-between">
             <div className="w-[250px] h-[40px]"><Image src={Logo} alt="" /></div>
             <div className="w-[250px] h-[225px] flex flex-col gap-[16px]">
                 <p className="text-[16px] leading-[24px] font-semibold">Courses</p>
@@ -51,7 +51,7 @@ export default function Footer() {
                 <p className="text-[14px] leading-[21px]">Partners</p>
             </div>
         </div>
-        <div className="w-[1120px] h-[57px] items-end border-solid border-black border-t-[2px] pt-[33px]">
+        <div className="w[1120px] h-[57px] items-end border-solid border-black border-t-[2px] pt-[33px]">
             <div className="h-[24px] flex justify-between">
                 <div className="h-[21px] flex gap-[24px]">
                     <p className='text-[14px] leading-[21px]'>2023 Ddsgnr. All right reserved.</p>

@@ -21,16 +21,22 @@ import { useMediaQuery } from 'react-responsive';
 
 export default function Home() {
   const isMobile = useMediaQuery({ query: '(min-width: 429px)' });
+  const isMobileHome = useMediaQuery({ query: '(min-width: 800px)' });
+  const isMobileHeader = useMediaQuery({ query: '(min-width: 550px)' });
+  const isMobileAchievements = useMediaQuery({ query: '(min-width: 450px)' });
+  const isMobileCourses = useMediaQuery({ query: '(min-width: 850px)' });
+  const isMobileTestimonials = useMediaQuery({ query: '(min-width: 850px)' });
+  const isMobileFooter = useMediaQuery({ query: '(min-width: 600px)' });
   return (
   <>
-  {isMobile ? <Header/> : <MobileHeader/>}
-  {isMobile ? <Section1/> : <MobileHome/>}
+  {isMobileHeader ? <Header/> : <MobileHeader/>}
+  {isMobileHome ? <Section1/> : <MobileHome/>}
   {isMobile ? <Services/> : <MobileServices/>}
-  {isMobile ? <Achievements/> : <MobileAchievements/>}
-  {isMobile ? <Courses/> : <MobileCourses/>}
+  {isMobileAchievements ? <Achievements/> : <MobileAchievements/>}
+  {isMobileCourses ? <Courses/> : <MobileCourses/>}
   {isMobile ? <AboutUs/> : <MobileAboutUs/>}
-  {isMobile ? <Testimonials/> : <MobileTestimonials/>}
-  {isMobile ? <Footer/> : <MobileFooter/>}
+  {isMobileTestimonials ? <Testimonials/> : <MobileTestimonials/>}
+  {isMobileFooter ? <Footer/> : <MobileFooter/>}
   
   </>
   );

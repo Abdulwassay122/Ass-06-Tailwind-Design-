@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function MobileAchievements() {
   return (
-    <section className='w-[428px] h-[451px] py-[48px] px-[24px] flex flex-col gap-[]'>
-      <div className="w-[380px] h-[355px] flex flex-col gap-[24px]">
-        <div className="w-[380px] h-[147px] flex flex-col gap-[24px]">
+    <section className='w[428px] h-[451px] py-[48px] px-[24px] flex flex-col gap-[] items-center'>
+      <div className="w-[380px] max-380:w-[350px] h-[355px] flex flex-col gap-[24px] items-center">
+        <div className="w[380px] h-[147px] flex flex-col gap-[24px] items-center">
           <h4 className='text-[32px] leading-[41.6px] text-center font-bold'>Our Achivements</h4>
           <p className='text-[18px] leading-[27px] text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>
         </div>
