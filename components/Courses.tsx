@@ -24,9 +24,9 @@ export default function Courses() {
         <div className='h-[1132px]  w[1280px] flex flex-col gap-[64px] items-center'>
             <div className='h-[534px] w-full flex flex-row custom850:gap-[32px]   w[1280px] justify-center'>
                 {/* card 1         */}
-                <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
-                    <div className=" w-[405.33px] h-[300px]"><Image src={img1} alt="" /></div>
-                    <div className=" w-[405.33px] h-[210px] flex flex-col gap-[24px]">
+                <div className='w-[405] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
+                    <div className=" w-[405] h-[300px]"><Image src={img1} alt="" /></div>
+                    <div className="pl-[16px] w-[405] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">
                             <div className='h-[24px] flex'>
                                 <p className='w-[326px] text-[14px] font-semibold leading-[21px]'>Design</p>
@@ -45,9 +45,9 @@ export default function Courses() {
                     </div>
                 </div>
                 {/* card 2         */}
-                <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
-                    <div className="w-[405.33px] h-[300px]"><Image src={img2} alt="" /></div>
-                    <div className="pl-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
+                <div className='w-[405] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
+                    <div className="w-[405] h-[300px]"><Image src={img2} alt="" /></div>
+                    <div className="pl-[16px] w-[405] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">
                             <div className='h-[24px] flex'>
                                 <p className='w-[326px] text-[14px] font-semibold leading-[21px]'>Programmimg</p>
@@ -66,9 +66,9 @@ export default function Courses() {
                     </div>
                 </div>
                 {/* card 3        */}
-                <div className='w-[405.33px] h-[534px] rounded-[5px] hidden xl:flex  flex-col gap-[24px] bg-[#F7F7F7]'>
-                    <div className="w-[405.33px] h-[300px]"><Image src={img3} alt="" /></div>
-                    <div className="ml-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
+                <div className='w-[405] h-[534px] rounded-[5px] hidden xl:flex  flex-col gap-[24px] bg-[#F7F7F7]'>
+                    <div className="w-[405] h-[300px]"><Image src={img3} alt="" /></div>
+                    <div className="ml-[16px] w-[405] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">
                             <div className='h-[24px] flex'>
                                 <p className='w-[326px] text-[14px] font-semibold leading-[21px]'>Business</p>
@@ -89,9 +89,9 @@ export default function Courses() {
             </div>
             <div className='h-[534px] flex flex-row gap-[32px] w[1280px] justify-center'>
                 {/* card 4         */}
-                <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
-                    <div className="w-[405.33px] h-[300px]"><Image src={img4} alt="" /></div>
-                    <div className="w-[405.33px] h-[210px] flex flex-col gap-[24px]">
+                <div className='w-[405] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
+                    <div className="w-[405px] h-[300px]"><Image src={img4} alt="" /></div>
+                    <div className="pl-[16px] w-[405] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">
                             <div className='h-[24px] flex'>
                                 <p className='w-[326px] text-[14px] font-semibold leading-[21px]'>Art</p>
@@ -110,9 +110,9 @@ export default function Courses() {
                     </div>
                 </div>
                 {/* card 5         */}
-                <div className='w-[405.33px] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
-                    <div className="w-[405.33px] h-[300px]"><Image src={img5} alt="" /></div>
-                    <div className="pl-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
+                <div className='w-[405] h-[534px] rounded-[5px] flex flex-col gap-[24px] bg-[#F7F7F7]'>
+                    <div className="w-[405] h-[300px]"><Image src={img5} alt="" /></div>
+                    <div className="pl-[16px] w-[405] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">
                             <div className='h-[24px] flex'>
                                 <p className='w-[326px] text-[14px] font-semibold leading-[21px]'>Law</p>
@@ -131,9 +131,9 @@ export default function Courses() {
                     </div>
                 </div>
                 {/* card 6        */}
-                <div className='w-[405.33px] h-[534px] rounded-[5px]  hidden xl:flex flex-col gap-[24px] bg-[#F7F7F7]'>
-                    <div className="w-[405.33px] h-[300px]"><Image src={img6} alt="" /></div>
-                    <div className="ml-[16px] w-[405.33px] h-[210px] flex flex-col gap-[24px]">
+                <div className='w-[405] h-[534px] rounded-[5px]  hidden xl:flex flex-col gap-[24px] bg-[#F7F7F7]'>
+                    <div className="w-[405] h-[300px]"><Image src={img6} alt="" /></div>
+                    <div className="ml-[16px] w-[405] h-[210px] flex flex-col gap-[24px]">
                         <div className="w-[382px] h-[122px] flex flex-col gap-[8px]">
                             <div className='h-[24px] flex'>
                                 <p className='w-[326px] text-[14px] font-semibold leading-[21px]'>Tech</p>
