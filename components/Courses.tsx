@@ -7,6 +7,8 @@ import img5 from '../Assets/course-img-5.svg'
 import img6 from '../Assets/course-img-6.svg'
 import star from '../Assets/Star 1.svg'
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
+
 
 export default function Courses() {
   return (
@@ -39,7 +41,8 @@ export default function Courses() {
                             <p className='text-[16px] leading-[24px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                         </div>
                         <div className="w-[382px] h-[40px] flex gap-[16px]">
-                            <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button>
+                            {/* <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button> */}
+                            <Button className='text-[16px]  bg-[#F7F7F7] hover:text-black  w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]' variant="outline">Enroll Now</Button>
                             <button className="w-[77px] h-[40px]">$400</button>
                         </div>  
                     </div>
@@ -60,7 +63,8 @@ export default function Courses() {
                             <p className='text-[16px] leading-[24px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                         </div>
                         <div className="w-[382px] h-[40px] flex gap-[16px]">
-                            <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button>
+                            {/* <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button> */}
+                            <Button className='text-[16px]  bg-[#F7F7F7] hover:text-black  w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]' variant="outline">Enroll Now</Button>
                             <button className="w-[77px] h-[40px]">$400</button>
                         </div>  
                     </div>
@@ -81,7 +85,8 @@ export default function Courses() {
                             <p className='text-[16px] leading-[24px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                         </div>
                         <div className="w-[382px] h-[40px] flex gap-[16px]">
-                            <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button>
+                            {/* <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button> */}
+                            <Button className='text-[16px]  bg-[#F7F7F7] hover:text-black  w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]' variant="outline">Enroll Now</Button>
                             <button className="w-[77px] h-[40px]">$400</button>
                         </div>  
                     </div>
@@ -104,7 +109,8 @@ export default function Courses() {
                             <p className='text-[16px] leading-[24px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                         </div>
                         <div className="w-[382px] h-[40px] flex gap-[16px]">
-                            <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button>
+                            {/* <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button> */}
+                            <Button className='text-[16px]  bg-[#F7F7F7] hover:text-black  w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]' variant="outline">Enroll Now</Button>
                             <button className="w-[77px] h-[40px]">$400</button>
                         </div>  
                     </div>
@@ -125,7 +131,8 @@ export default function Courses() {
                             <p className='text-[16px] leading-[24px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                         </div>
                         <div className="w-[382px] h-[40px] flex gap-[16px]">
-                            <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button>
+                            {/* <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button> */}
+                            <Button className='text-[16px]  bg-[#F7F7F7] hover:text-black  w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]' variant="outline">Enroll Now</Button>
                             <button className="w-[77px] h-[40px]">$400</button>
                         </div>  
                     </div>
@@ -146,14 +153,17 @@ export default function Courses() {
                             <p className='text-[16px] leading-[24px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                         </div>
                         <div className="w-[382px] h-[40px] flex gap-[16px]">
-                            <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button>
+                            {/* <button className="w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]">Enroll Now</button> */}
+                            <Button className='text-[16px]  bg-[#F7F7F7] hover:text-black  w-[117px] h-[40px] border-solid border-black border-[1px] rounded-[5px]' variant="outline">Enroll Now</Button>
                             <button className="w-[77px] h-[40px]">$400</button>
                         </div>  
                     </div>
                 </div>
             </div>
         </div>
-        <button className=' w-[152px] h-[40px] mx-[564px] text-[16px] leading-[24px] border-solid border-black border-[1px] rounded-[5px]'>View All Courses</button>
+        {/* <button className=' w-[152px] h-[40px] mx-[564px] text-[16px] leading-[24px] border-solid border-black border-[1px] rounded-[5px]'>View All Courses</button> */}
+        <Button className='text-[16px] hover:bg-white hover:text-black w-[152px] h-[40px] mx-[564px] text-[16px] leading-[24px] border-solid border-black border-[1px] rounded-[5px]' variant="outline">View All Courses</Button>
+
       </div>
     </section>
   )

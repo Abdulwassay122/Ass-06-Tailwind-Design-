@@ -7,6 +7,7 @@ import air4 from '../Assets/air4.svg'
 import air5 from '../Assets/air5.svg'
 import air6 from '../Assets/air6.svg'
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
 
 export default function Section1() {
   return (
@@ -18,8 +19,10 @@ export default function Section1() {
           <p className='text-[18px] leading-[27px] h-[54px]'>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
         </div>
         <div className='w-[358px] h-[64px] pt-[16px] flex gap-[16px]'>
-          <button className='w-[178px] h-[48px] rounded-[5px] bg-black text-white'>Start learning now</button>
-          <button className='w-[164px] h-[48px] rounded-[5px] border-solid border-black border-[1px]'>Start learning now</button>
+          {/* <button className='w-[178px] h-[48px] rounded-[5px] bg-black text-white'>Start learning now</button> */}
+          {/* <button className='w-[164px] h-[48px] rounded-[5px] border-solid border-black border-[1px]'>Start learning now</button> */}
+          <Button className='text-[16px] hover:bg-black hover:text-white  w-[178px] h-[48px] rounded-[5px] bg-black text-white' variant="outline">Start learning now</Button>
+          <Button className='text-[16px] hover:bg-white hover:text-black  w-[164px] h-[48px] rounded-[5px] border-solid border-black border-[1px]' variant="outline">Explore Courses</Button>
         </div>
       </div>
       <div className='w-[640px]'>

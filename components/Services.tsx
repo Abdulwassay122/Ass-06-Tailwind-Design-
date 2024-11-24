@@ -9,6 +9,8 @@ import briefcase from '../Assets/briefcase.svg'
 import book from '../Assets/book(1).svg'
 import book1 from '../Assets/book.svg'
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
+
 
 export default function Services() {
   return (
@@ -121,7 +123,8 @@ export default function Services() {
             </div>
             </div>
             <div className='w-[155px] h-[48px] border-solid mx-[562.5px]'> {/* sub section 4 */}
-                <button className='w-[155px] h-[48px] border-solid border-black border-[1px] rounded-[5px]'>View All Courses</button>
+                {/* <button className='w-[155px] h-[48px] border-solid border-black border-[1px] rounded-[5px]'>View All Courses</button> */}
+                <Button className='text-[16px] hover:bg-white hover:text-black  w-[164px] h-[48px] rounded-[5px] border-solid border-black border-[1px]' variant="outline">View All Courses</Button>
             </div>
         <div>
         </div>
