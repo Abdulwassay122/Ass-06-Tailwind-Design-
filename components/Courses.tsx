@@ -162,7 +162,7 @@ export default function Courses() {
             </div>
         </div>
         {/* <button className=' w-[152px] h-[40px] mx-[564px] text-[16px] leading-[24px] border-solid border-black border-[1px] rounded-[5px]'>View All Courses</button> */}
-        <Button className='text-[16px] hover:bg-white hover:text-black w-[152px] h-[40px] mx-[564px] text-[16px] leading-[24px] border-solid border-black border-[1px] rounded-[5px]' variant="outline">View All Courses</Button>
+        <Button className='text-[16px] hover:bg-white hover:text-black w-[152px] h-[40px] mx-[564px]  leading-[24px] border-solid border-black border-[1px] rounded-[5px]' variant="outline">View All Courses</Button>
 
       </div>
     </section>
